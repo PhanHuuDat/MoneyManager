@@ -1,0 +1,20 @@
+﻿@using MoneyManager.Client.Components
+@inherits LayoutComponentBase
+
+<MyMudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <NavMenu/>
+    <MudMainContent Class="pt-16 px-16">
+        <MudContainer Class="mt-6">
+            @Body
+            <MudAlert Severity="Severity.Success" Class="mt-16">Text inside MudContainer</MudAlert>
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+
+
+

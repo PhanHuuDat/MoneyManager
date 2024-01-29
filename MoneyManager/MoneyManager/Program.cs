@@ -1,6 +1,7 @@
 using Infrastructure.Database;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MoneyManager.Client.Pages;
 using MoneyManager.Components;
 using MudBlazor.Services;
 
